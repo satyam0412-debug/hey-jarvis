@@ -198,21 +198,6 @@ It is held in memory only, deliberately: writing it to disk would make a fresh l
 
 ---
 
-## ⚡ Quick Start
-
-```bash
-git clone https://github.com/FatihMakes/Mark-LIII.git
-cd Mark-LIII
-python setup.py        # installs deps for YOUR OS + the browser automation engine
-python main.py
-```
-
-`setup.py` only ever installs what your operating system needs — the Windows-only libraries are skipped automatically on macOS and Linux (and vice-versa). Prefer to do it by hand? `pip install -r requirements.txt` works too.
-
-> ⚠️ **Installation Note:** If you hit a `ModuleNotFoundError` for an OS-specific package, install it with `pip install <module_name>`. The optional **wake word** engine is *not* installed here — grab it in one click from **⚙ → WAKE WORD** inside the app.
-
----
-
 ## 📋 Requirements
 
 | Requirement | Details |
